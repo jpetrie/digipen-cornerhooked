@@ -1,0 +1,6 @@
+Corner Hooked Tutor: Power Resolution
+(Press F1 for more help)
+
+Move the mouse up and down to set shot power.
+Left clicking will take the shot, right
+clicking will return you to shot lineup.

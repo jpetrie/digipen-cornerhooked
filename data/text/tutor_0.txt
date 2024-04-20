@@ -1,0 +1,10 @@
+Corner Hooked Tutor: Ball In Hand
+(Press F1 for more help)
+
+You can place the ball anywhere you like
+at the back end of the playfield via the
+mouse. The mouse wheel can be used to
+move the ball in and out of the screen.
+
+Once you have placed the ball, click to
+continue.

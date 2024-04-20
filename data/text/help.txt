@@ -1,0 +1,18 @@
+Corner Hooked In-Game Help:
+
+Keys:
+  ESC - Main menu.
+
+  L - Toggle cue lock.
+  TAB - Toggle camera lock.
+
+  S - Hide/show scoreboard.
+  J - Hide/show Jukebox.
+  G - Hide/Show ghostball.
+
+  T - Hide/show tutor window.
+
+  RETURN - In-game chat.
+
+
+  

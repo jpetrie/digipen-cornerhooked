@@ -1,0 +1,8 @@
+Nineteen Ball Description:
+
+19-Ball is like 9-Ball in regular pool.
+You win if you pocket the 19 ball, but
+you must strike the lowest ball on the
+table first.
+
+19-Ball can be played by up to 8 players.

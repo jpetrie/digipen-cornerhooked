@@ -1,0 +1,726 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="nsl">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{5f8e1d50-ef28-4d60-a695-867e06add904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\Window">
+      <UniqueIdentifier>{0a201e58-3f24-4e6c-8682-3629d7599817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay">
+      <UniqueIdentifier>{bc60adee-d264-4e5f-824d-e19926b508a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Game">
+      <UniqueIdentifier>{6942d755-93de-414e-8474-0823c77d0d01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Game\Session">
+      <UniqueIdentifier>{7e845454-151f-4c0e-97ea-583d7e493066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Camera">
+      <UniqueIdentifier>{55e29e22-afc8-4b4b-b038-59ce94c8f0af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Input">
+      <UniqueIdentifier>{e8bd57ec-98e7-48f1-aedd-b9dbeaa5d5c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Playfield">
+      <UniqueIdentifier>{cea2b896-92d7-4901-a128-ced8692e4969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\State Machine">
+      <UniqueIdentifier>{d091dc4a-dfed-48bc-8afc-f424b0979b86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Player">
+      <UniqueIdentifier>{0cc8f55e-d37c-452c-a867-aae520c894cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Player\Clock">
+      <UniqueIdentifier>{2038c69c-416b-49d2-88a6-347b99db057e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Rules">
+      <UniqueIdentifier>{66994c12-80b6-423b-acc6-3bba9be64aa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Rules\Eighteen">
+      <UniqueIdentifier>{d2c3e0e0-d3db-4711-a45b-d862edfdf1e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Rules\Nineteen">
+      <UniqueIdentifier>{12f455a2-0fd5-47dd-86d4-29df42b0717f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Rules\Straight">
+      <UniqueIdentifier>{c0ef1227-2ddd-46a6-bb5c-9d356aaf5da8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Rules\211">
+      <UniqueIdentifier>{ac982bd2-e362-4f71-b55a-e7f003f5b554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{a2610dcd-4f14-44ff-b2fc-d7f5667db204}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Direct3D">
+      <UniqueIdentifier>{2609a5d2-f650-41db-8aab-a82216a0686a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Direct3D\DXRect">
+      <UniqueIdentifier>{8d47d0e2-327f-4786-99b3-7f0e0df8895c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Direct3D\DXFont">
+      <UniqueIdentifier>{1b0423eb-0c08-4fe1-b1b0-5e4a49abb8e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Direct3D\DXLine">
+      <UniqueIdentifier>{02c69613-13b0-4f5f-ad51-e9b968d5e01e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Direct3D\DXSphere">
+      <UniqueIdentifier>{ec39c905-1f19-44ec-a7b3-1969c452b619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Direct3D\DXCircle">
+      <UniqueIdentifier>{7a2901e0-ab7c-4caf-a0fc-191a2edba251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Direct3D\DXCylinder">
+      <UniqueIdentifier>{6b6a0cab-d416-482f-8cbd-9c7a8a3d0c84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Water">
+      <UniqueIdentifier>{928f3d78-f24b-4281-803b-bd5d17fbb459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Renderer">
+      <UniqueIdentifier>{e1967032-2b61-473b-bc17-80810bef8e68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Primitive">
+      <UniqueIdentifier>{5829226e-8dc6-4a66-9a86-c3b8c04db163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Skybox">
+      <UniqueIdentifier>{711489b6-9b84-4652-855d-c7489c9dd141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Shaders">
+      <UniqueIdentifier>{3b3b9504-1760-4a1f-9e73-7fa41d3de5a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Particles">
+      <UniqueIdentifier>{e6aa5daf-8409-45b6-8672-a9d2b9ec39b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Particles\ParticleEngine">
+      <UniqueIdentifier>{dd1cc919-c1b4-42b1-848f-357aac9eeca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{4fe31430-9a2e-46ad-8e34-c918e5b7809c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Physics Engine">
+      <UniqueIdentifier>{1c40eed8-5609-49ba-947e-354235c0a7ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Collision Engine">
+      <UniqueIdentifier>{255a2bb2-beb2-43ad-90e3-cfb17e7f2656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Rigid Body">
+      <UniqueIdentifier>{b74755dd-f038-4f66-ab61-0b0bfb1778f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Definitions">
+      <UniqueIdentifier>{be6c9d92-de2c-4356-81a0-5226115bfb04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Spring">
+      <UniqueIdentifier>{b18539d3-7e23-42ad-ae72-960fa99af86c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{a05009ac-c1d1-45ba-aeb8-cbe4d451b240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Geometry">
+      <UniqueIdentifier>{95dabf82-660b-4269-9141-82ca7cc59408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Geometry\Matrix">
+      <UniqueIdentifier>{f141b6a7-c66a-4ba9-a6b9-f17e42376161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Quaternion">
+      <UniqueIdentifier>{cc3cf625-a4ea-46a3-9aec-a1cee8e1c765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Definitions">
+      <UniqueIdentifier>{fbb434b2-1eee-41bc-a36d-0489bbc9da72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Vector">
+      <UniqueIdentifier>{28d3d85a-574b-45a4-a982-aca3d30dad51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Trig">
+      <UniqueIdentifier>{976b8a45-0370-4ea2-bf88-c2acd4e6c382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking">
+      <UniqueIdentifier>{e3d9a9e0-da6d-45f3-92d8-cce32cc2df3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking\Tracker">
+      <UniqueIdentifier>{aa457073-bd10-4f10-bafd-4d3e61d4720d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking\Discovery">
+      <UniqueIdentifier>{4f5d1e81-fbac-456d-b818-951c8c955eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking\Server">
+      <UniqueIdentifier>{e2996da7-3e02-4570-83e2-28e0baf2e910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking\Client">
+      <UniqueIdentifier>{7e600391-e89e-4946-9ecd-de276b2db501}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking\Packets">
+      <UniqueIdentifier>{2970929f-5bbd-413d-83b6-13a8563a8387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{32701715-3751-47d7-aa1c-99944cc53b24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Neural Network">
+      <UniqueIdentifier>{46a3e7de-70bb-4499-9726-7530b5e5f359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\AIPlayer">
+      <UniqueIdentifier>{d8e7ca99-d6ca-494c-acab-36db97f017ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{5beba5d1-0976-457f-a6d2-f397e54eac9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debugging">
+      <UniqueIdentifier>{67b992a1-4b15-4d0a-bcd9-324c8155aff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debugging\Messagebox">
+      <UniqueIdentifier>{a64ba063-feaa-4a1e-990e-ff67c765bce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debugging\Stacktrace">
+      <UniqueIdentifier>{150b1903-060a-4ed4-b5c6-ef26004829df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debugging\DbgHelp Wrapper">
+      <UniqueIdentifier>{ac0c0dc3-090a-489a-9f3c-2f98aa4cbb3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debugging\Profiler">
+      <UniqueIdentifier>{21a15759-ace5-485b-8e98-9fab17891ce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Error Handling">
+      <UniqueIdentifier>{28eabdc4-0b64-4a8e-bf91-25f1cd8cf6c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{b7b3cc92-3949-4fdb-ac54-78f9ac3025be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{259faf67-b22a-4b67-a963-502bfeff3762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Screen">
+      <UniqueIdentifier>{1132e2e9-c671-4c7e-a2b9-411d448d3d05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Element">
+      <UniqueIdentifier>{481126a3-43dc-4dbb-9183-c2b8c04045f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Graphic">
+      <UniqueIdentifier>{8063502c-fba7-4c50-b304-61ae5390f74c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\PushButton">
+      <UniqueIdentifier>{818d9bb1-d0ae-4749-acdc-fbea9bf41061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\EditText">
+      <UniqueIdentifier>{e2390f2b-90cf-48d9-b3f6-4d302712e8b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Side Panel">
+      <UniqueIdentifier>{44fb5fb1-f96f-4f6d-abed-08d7b910e6d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Panel">
+      <UniqueIdentifier>{5a3d5046-5ccc-4c75-9f82-28a4fc7fbedd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Power Meter">
+      <UniqueIdentifier>{cf2955f6-9eb8-48e9-b9ba-eecee0c5a7e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Listbox">
+      <UniqueIdentifier>{5ea9bd1b-f415-49d1-85a3-3726cb7fed1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Scrollbar">
+      <UniqueIdentifier>{4da47639-a73d-459c-99c2-49e7f9812309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Menu">
+      <UniqueIdentifier>{7f5257d5-24ca-48de-8b55-33201638cd08}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\lexical_cast.h">
+      <Filter>nsl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\nsl.h">
+      <Filter>nsl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\nsl_bstream.h">
+      <Filter>nsl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\nsl_common.h">
+      <Filter>nsl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\nsl_random.h">
+      <Filter>nsl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\nsl_singleton.h">
+      <Filter>nsl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\nsl_tools_string.h">
+      <Filter>nsl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\perlin.h">
+      <Filter>nsl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\main.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Window.h">
+      <Filter>main\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game.h">
+      <Filter>Gameplay\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameSession.h">
+      <Filter>Gameplay\Game\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera.h">
+      <Filter>Gameplay\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Input.h">
+      <Filter>Gameplay\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PlayfieldBase.h">
+      <Filter>Gameplay\Playfield</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PlayfieldCue.h">
+      <Filter>Gameplay\Playfield</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PlayfieldPocket.h">
+      <Filter>Gameplay\Playfield</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ShotProjection.h">
+      <Filter>Gameplay\Playfield</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StateMachine.h">
+      <Filter>Gameplay\State Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Player.h">
+      <Filter>Gameplay\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Clock.h">
+      <Filter>Gameplay\Player\Clock</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RuleSystem.h">
+      <Filter>Gameplay\Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DXRect.h">
+      <Filter>Graphics\Direct3D\DXRect</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DXFont.h">
+      <Filter>Graphics\Direct3D\DXFont</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DXLine.h">
+      <Filter>Graphics\Direct3D\DXLine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DXSphere.h">
+      <Filter>Graphics\Direct3D\DXSphere</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DXCircle.h">
+      <Filter>Graphics\Direct3D\DXCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DXCylinder.h">
+      <Filter>Graphics\Direct3D\DXCylinder</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Water.h">
+      <Filter>Graphics\Water</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsRenderer.h">
+      <Filter>Graphics\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsPrimitive.h">
+      <Filter>Graphics\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Skybox.h">
+      <Filter>Graphics\Skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Particles.h">
+      <Filter>Graphics\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ParticleTriangle.h">
+      <Filter>Graphics\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Particle.h">
+      <Filter>Graphics\Particles\ParticleEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Physics.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PhysicsAux.h">
+      <Filter>Physics\Physics Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PhysicsEngine.h">
+      <Filter>Physics\Physics Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CollisionEngine.h">
+      <Filter>Physics\Collision Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ball.h">
+      <Filter>Physics\Rigid Body</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RigidBody.h">
+      <Filter>Physics\Rigid Body</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PhysicsDefs.h">
+      <Filter>Physics\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Spring.h">
+      <Filter>Physics\Spring</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Geometry.hpp">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GeometryExceptions.hpp">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Object.hpp">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Polygon.hpp">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StdTypes.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Matrix.hpp">
+      <Filter>Math\Geometry\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\matrix3x3.h">
+      <Filter>Math\Geometry\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Quaternion.h">
+      <Filter>Math\Quaternion</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MathDefs.h">
+      <Filter>Math\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Trig.h">
+      <Filter>Math\Trig</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NetTracker.h">
+      <Filter>Networking\Tracker</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NetGameDiscovery.h">
+      <Filter>Networking\Discovery</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NetServer.h">
+      <Filter>Networking\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NetClient.h">
+      <Filter>Networking\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NetPackets.h">
+      <Filter>Networking\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ANN.h">
+      <Filter>AI\Neural Network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AIPlayer.h">
+      <Filter>AI\AIPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SoundEngine.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tracker.h">
+      <Filter>Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dbg_messagebox.h">
+      <Filter>Debugging\Messagebox</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dbg_stacktrace.h">
+      <Filter>Debugging\Stacktrace</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wrapdbghelp.h">
+      <Filter>Debugging\DbgHelp Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\profiler.h">
+      <Filter>Debugging\Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\asserter.h">
+      <Filter>Error Handling</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DXEnforcer.h">
+      <Filter>Error Handling</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enforcer.h">
+      <Filter>Error Handling</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HLog.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Log.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UIScreen.h">
+      <Filter>UI\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UIElement.h">
+      <Filter>UI\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UIGraphic.h">
+      <Filter>UI\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UIButton.h">
+      <Filter>UI\PushButton</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UIEditText.h">
+      <Filter>UI\EditText</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UIPanel.h">
+      <Filter>UI\Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UIPowerMeter.h">
+      <Filter>UI\Power Meter</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UIListbox.h">
+      <Filter>UI\Listbox</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UIScrollbar.h">
+      <Filter>UI\Scrollbar</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UIMenu.h">
+      <Filter>UI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\nsl_bstream.cpp">
+      <Filter>nsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\nsl_random.cpp">
+      <Filter>nsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\nsl_singleton.cpp">
+      <Filter>nsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\nsl_tools_string.cpp">
+      <Filter>nsl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Window.cpp">
+      <Filter>main\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>Gameplay\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameHandlers.cpp">
+      <Filter>Gameplay\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameInit.cpp">
+      <Filter>Gameplay\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GamePlayloop.cpp">
+      <Filter>Gameplay\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameStates.cpp">
+      <Filter>Gameplay\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameSession.cpp">
+      <Filter>Gameplay\Game\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>Gameplay\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Input.cpp">
+      <Filter>Gameplay\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PlayfieldBase.cpp">
+      <Filter>Gameplay\Playfield</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PlayfieldCue.cpp">
+      <Filter>Gameplay\Playfield</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PlayfieldPocket.cpp">
+      <Filter>Gameplay\Playfield</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ShotProjection.cpp">
+      <Filter>Gameplay\Playfield</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StateMachine.cpp">
+      <Filter>Gameplay\State Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player.cpp">
+      <Filter>Gameplay\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Clock.cpp">
+      <Filter>Gameplay\Player\Clock</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RuleSystem.cpp">
+      <Filter>Gameplay\Rules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EighteenBall.cpp">
+      <Filter>Gameplay\Rules\Eighteen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NineteenBall.cpp">
+      <Filter>Gameplay\Rules\Nineteen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DXRect.cpp">
+      <Filter>Graphics\Direct3D\DXRect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DXFont.cpp">
+      <Filter>Graphics\Direct3D\DXFont</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DXLine.cpp">
+      <Filter>Graphics\Direct3D\DXLine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DXSphere.cpp">
+      <Filter>Graphics\Direct3D\DXSphere</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DXCircle.cpp">
+      <Filter>Graphics\Direct3D\DXCircle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DXCylinder.cpp">
+      <Filter>Graphics\Direct3D\DXCylinder</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Water.cpp">
+      <Filter>Graphics\Water</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsRenderer.cpp">
+      <Filter>Graphics\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsPrimitive.cpp">
+      <Filter>Graphics\Primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Skybox.cpp">
+      <Filter>Graphics\Skybox</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Particle.cpp">
+      <Filter>Graphics\Particles\ParticleEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Particle_Alloc.cpp">
+      <Filter>Graphics\Particles\ParticleEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Particle_Create.cpp">
+      <Filter>Graphics\Particles\ParticleEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PhysicsEngine.cpp">
+      <Filter>Physics\Physics Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CollisionEngine.cpp">
+      <Filter>Physics\Collision Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ball.cpp">
+      <Filter>Physics\Rigid Body</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RigidBody.cpp">
+      <Filter>Physics\Rigid Body</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Geometry.cpp">
+      <Filter>Math\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Object.cpp">
+      <Filter>Math\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Matrix.cpp">
+      <Filter>Math\Geometry\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Quaternion.cpp">
+      <Filter>Math\Quaternion</Filter>
+    </ClCompile>
+    <ClCompile Include="src\trig.cpp">
+      <Filter>Math\Trig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NetTracker.cpp">
+      <Filter>Networking\Tracker</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NetGameDiscovery.cpp">
+      <Filter>Networking\Discovery</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NetServer.cpp">
+      <Filter>Networking\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NetClient.cpp">
+      <Filter>Networking\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NetPackets.cpp">
+      <Filter>Networking\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AIPlayer.cpp">
+      <Filter>AI\AIPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SoundEngine.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dbg_messagebox.cpp">
+      <Filter>Debugging\Messagebox</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dbg_stacktrace.cpp">
+      <Filter>Debugging\Stacktrace</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wrapdbghelp.cpp">
+      <Filter>Debugging\DbgHelp Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\asserter.cpp">
+      <Filter>Error Handling</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UIScreen.cpp">
+      <Filter>UI\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UIElement.cpp">
+      <Filter>UI\Element</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UIGraphic.cpp">
+      <Filter>UI\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UIButton.cpp">
+      <Filter>UI\PushButton</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UIEditText.cpp">
+      <Filter>UI\EditText</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UIPanel.cpp">
+      <Filter>UI\Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UIPowerMeter.cpp">
+      <Filter>UI\Power Meter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UIListbox.cpp">
+      <Filter>UI\Listbox</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UIScrollbar.cpp">
+      <Filter>UI\Scrollbar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UIMenu.cpp">
+      <Filter>UI\Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\perlin.inl">
+      <Filter>nsl</Filter>
+    </None>
+    <None Include="src\Particles.inl">
+      <Filter>Graphics\Particles</Filter>
+    </None>
+    <None Include="src\ANN.inl">
+      <Filter>AI\Neural Network</Filter>
+    </None>
+    <None Include="src\profiler.inl">
+      <Filter>Debugging\Profiler</Filter>
+    </None>
+    <None Include="src\asserter.inl">
+      <Filter>Error Handling</Filter>
+    </None>
+    <None Include="src\DXEnforcer.inl">
+      <Filter>Error Handling</Filter>
+    </None>
+    <None Include="src\enforcer.inl">
+      <Filter>Error Handling</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="data\shaders\ball.fx">
+      <Filter>Graphics\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shaders\pocket.fx">
+      <Filter>Graphics\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shaders\rail.fx">
+      <Filter>Graphics\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shaders\skybox.fx">
+      <Filter>Graphics\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shaders\ui.fx">
+      <Filter>Graphics\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="data\shaders\water.fx">
+      <Filter>Graphics\Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ch.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ch.rc" />
+  </ItemGroup>
+</Project>

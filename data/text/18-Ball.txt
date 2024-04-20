@@ -1,0 +1,7 @@
+Eighteen Ball Description:
+
+18-Ball is like 8-ball in regular pool.
+You must pocket all the balls of your
+type before sinking the 18 ball.
+
+18-Ball is for two players only.

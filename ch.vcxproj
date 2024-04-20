@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{91109F11-0AC8-4AB4-9C2E-3CB2B2499EEF}</ProjectGuid>
+    <RootNamespace>ch</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>15.0.26919.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>debug\</OutDir>
+    <IntDir>debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>release\</OutDir>
+    <IntDir>release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3d9.lib;dxguid.lib;d3dx9.lib;dxerr9.lib;dinput8.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)ch.exe</OutputFile>
+      <AdditionalLibraryDirectories>src;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)ch.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>main.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3d9.lib;dxguid.lib;d3dx9.lib;dxerr9.lib;dinput8.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)ch.exe</OutputFile>
+      <AdditionalLibraryDirectories>src;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="src\AIPlayer.h" />
+    <ClInclude Include="src\ANN.h" />
+    <ClInclude Include="src\asserter.h" />
+    <ClInclude Include="src\Ball.h" />
+    <ClInclude Include="src\Camera.h" />
+    <ClInclude Include="src\Clock.h" />
+    <ClInclude Include="src\CollisionEngine.h" />
+    <ClInclude Include="src\dbg_messagebox.h" />
+    <ClInclude Include="src\dbg_stacktrace.h" />
+    <ClInclude Include="src\DXCircle.h" />
+    <ClInclude Include="src\DXCylinder.h" />
+    <ClInclude Include="src\DXEnforcer.h" />
+    <ClInclude Include="src\DXFont.h" />
+    <ClInclude Include="src\DXLine.h" />
+    <ClInclude Include="src\DXRect.h" />
+    <ClInclude Include="src\DXSphere.h" />
+    <ClInclude Include="src\enforcer.h" />
+    <ClInclude Include="src\Game.h" />
+    <ClInclude Include="src\GameSession.h" />
+    <ClInclude Include="src\Geometry.hpp" />
+    <ClInclude Include="src\GeometryExceptions.hpp" />
+    <ClInclude Include="src\GraphicsPrimitive.h" />
+    <ClInclude Include="src\GraphicsRenderer.h" />
+    <ClInclude Include="src\HLog.h" />
+    <ClInclude Include="src\Input.h" />
+    <ClInclude Include="src\lexical_cast.h" />
+    <ClInclude Include="src\Log.h" />
+    <ClInclude Include="src\main.h" />
+    <ClInclude Include="src\MathDefs.h" />
+    <ClInclude Include="src\Matrix.hpp" />
+    <ClInclude Include="src\matrix3x3.h" />
+    <ClInclude Include="src\NetClient.h" />
+    <ClInclude Include="src\NetGameDiscovery.h" />
+    <ClInclude Include="src\NetPackets.h" />
+    <ClInclude Include="src\NetServer.h" />
+    <ClInclude Include="src\NetTracker.h" />
+    <ClInclude Include="src\nsl.h" />
+    <ClInclude Include="src\nsl_bstream.h" />
+    <ClInclude Include="src\nsl_common.h" />
+    <ClInclude Include="src\nsl_random.h" />
+    <ClInclude Include="src\nsl_singleton.h" />
+    <ClInclude Include="src\nsl_tools_string.h" />
+    <ClInclude Include="src\Object.hpp" />
+    <ClInclude Include="src\Particle.h" />
+    <ClInclude Include="src\Particles.h" />
+    <ClInclude Include="src\ParticleTriangle.h" />
+    <ClInclude Include="src\perlin.h" />
+    <ClInclude Include="src\Physics.h" />
+    <ClInclude Include="src\PhysicsAux.h" />
+    <ClInclude Include="src\PhysicsDefs.h" />
+    <ClInclude Include="src\PhysicsEngine.h" />
+    <ClInclude Include="src\Player.h" />
+    <ClInclude Include="src\PlayfieldBase.h" />
+    <ClInclude Include="src\PlayfieldCue.h" />
+    <ClInclude Include="src\PlayfieldPocket.h" />
+    <ClInclude Include="src\Polygon.hpp" />
+    <ClInclude Include="src\profiler.h" />
+    <ClInclude Include="src\Quaternion.h" />
+    <ClInclude Include="src\RigidBody.h" />
+    <ClInclude Include="src\RuleSystem.h" />
+    <ClInclude Include="src\ShotProjection.h" />
+    <ClInclude Include="src\Skybox.h" />
+    <ClInclude Include="src\SoundEngine.h" />
+    <ClInclude Include="src\Spring.h" />
+    <ClInclude Include="src\StateMachine.h" />
+    <ClInclude Include="src\StdTypes.h" />
+    <ClInclude Include="src\tracker.h" />
+    <ClInclude Include="src\Trig.h" />
+    <ClInclude Include="src\UIButton.h" />
+    <ClInclude Include="src\UIEditText.h" />
+    <ClInclude Include="src\UIElement.h" />
+    <ClInclude Include="src\UIGraphic.h" />
+    <ClInclude Include="src\UIListbox.h" />
+    <ClInclude Include="src\UIMenu.h" />
+    <ClInclude Include="src\UIPanel.h" />
+    <ClInclude Include="src\UIPowerMeter.h" />
+    <ClInclude Include="src\UIScreen.h" />
+    <ClInclude Include="src\UIScrollbar.h" />
+    <ClInclude Include="src\Water.h" />
+    <ClInclude Include="src\Window.h" />
+    <ClInclude Include="src\wrapdbghelp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AIPlayer.cpp" />
+    <ClCompile Include="src\asserter.cpp" />
+    <ClCompile Include="src\Ball.cpp" />
+    <ClCompile Include="src\Camera.cpp" />
+    <ClCompile Include="src\Clock.cpp" />
+    <ClCompile Include="src\CollisionEngine.cpp" />
+    <ClCompile Include="src\dbg_messagebox.cpp" />
+    <ClCompile Include="src\dbg_stacktrace.cpp" />
+    <ClCompile Include="src\DXCircle.cpp" />
+    <ClCompile Include="src\DXCylinder.cpp" />
+    <ClCompile Include="src\DXFont.cpp" />
+    <ClCompile Include="src\DXLine.cpp" />
+    <ClCompile Include="src\DXRect.cpp" />
+    <ClCompile Include="src\DXSphere.cpp" />
+    <ClCompile Include="src\EighteenBall.cpp" />
+    <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\GameHandlers.cpp" />
+    <ClCompile Include="src\GameInit.cpp" />
+    <ClCompile Include="src\GamePlayloop.cpp" />
+    <ClCompile Include="src\GameSession.cpp" />
+    <ClCompile Include="src\GameStates.cpp" />
+    <ClCompile Include="src\Geometry.cpp" />
+    <ClCompile Include="src\GraphicsPrimitive.cpp" />
+    <ClCompile Include="src\GraphicsRenderer.cpp" />
+    <ClCompile Include="src\Input.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Matrix.cpp" />
+    <ClCompile Include="src\NetClient.cpp" />
+    <ClCompile Include="src\NetGameDiscovery.cpp" />
+    <ClCompile Include="src\NetPackets.cpp" />
+    <ClCompile Include="src\NetServer.cpp" />
+    <ClCompile Include="src\NetTracker.cpp" />
+    <ClCompile Include="src\NineteenBall.cpp" />
+    <ClCompile Include="src\nsl_bstream.cpp" />
+    <ClCompile Include="src\nsl_random.cpp" />
+    <ClCompile Include="src\nsl_singleton.cpp" />
+    <ClCompile Include="src\nsl_tools_string.cpp" />
+    <ClCompile Include="src\Object.cpp" />
+    <ClCompile Include="src\Particle.cpp">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">main.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="src\Particle_Alloc.cpp">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">main.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="src\Particle_Create.cpp" />
+    <ClCompile Include="src\PhysicsEngine.cpp" />
+    <ClCompile Include="src\Player.cpp" />
+    <ClCompile Include="src\PlayfieldBase.cpp" />
+    <ClCompile Include="src\PlayfieldCue.cpp" />
+    <ClCompile Include="src\PlayfieldPocket.cpp" />
+    <ClCompile Include="src\Quaternion.cpp" />
+    <ClCompile Include="src\RigidBody.cpp" />
+    <ClCompile Include="src\RuleSystem.cpp" />
+    <ClCompile Include="src\ShotProjection.cpp" />
+    <ClCompile Include="src\Skybox.cpp" />
+    <ClCompile Include="src\SoundEngine.cpp" />
+    <ClCompile Include="src\StateMachine.cpp" />
+    <ClCompile Include="src\trig.cpp" />
+    <ClCompile Include="src\UIButton.cpp" />
+    <ClCompile Include="src\UIEditText.cpp" />
+    <ClCompile Include="src\UIElement.cpp" />
+    <ClCompile Include="src\UIGraphic.cpp" />
+    <ClCompile Include="src\UIListbox.cpp" />
+    <ClCompile Include="src\UIMenu.cpp" />
+    <ClCompile Include="src\UIPanel.cpp" />
+    <ClCompile Include="src\UIPowerMeter.cpp" />
+    <ClCompile Include="src\UIScreen.cpp" />
+    <ClCompile Include="src\UIScrollbar.cpp" />
+    <ClCompile Include="src\Water.cpp" />
+    <ClCompile Include="src\Window.cpp" />
+    <ClCompile Include="src\wrapdbghelp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\ANN.inl" />
+    <None Include="src\asserter.inl" />
+    <None Include="src\DXEnforcer.inl" />
+    <None Include="src\enforcer.inl" />
+    <None Include="src\Particles.inl" />
+    <None Include="src\perlin.inl" />
+    <None Include="src\profiler.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="data\shaders\ball.fx" />
+    <FxCompile Include="data\shaders\pocket.fx" />
+    <FxCompile Include="data\shaders\rail.fx" />
+    <FxCompile Include="data\shaders\skybox.fx" />
+    <FxCompile Include="data\shaders\ui.fx" />
+    <FxCompile Include="data\shaders\water.fx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ch.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ch.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

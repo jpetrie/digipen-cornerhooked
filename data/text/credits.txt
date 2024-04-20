@@ -1,0 +1,32 @@
+
+Development Team: Scientific Ninja Studios
+
+- Scott Smith
+	Producer/Designer
+	Physics/AI
+
+- Josh Petrie
+	Technical Director
+	Graphics/UI
+
+- James Scott Lancaster
+	Lead Tester/Art Director
+	Networking/UI
+
+- Brian Rosmond
+	Product Manager
+	Sound/Particle Effects
+
+- James Carnahan
+	Assistant Technical Director
+	Graphics
+
+Publisher: DigiPen Institute of Technology
+
+ President		- Claude Comair
+ Executive Producer	- Ben Ellinger
+
+
+Special Thanks:
+Max Wagner
+

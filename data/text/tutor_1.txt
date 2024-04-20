@@ -1,0 +1,9 @@
+Corner Hooked Tutor: Shot Lineup
+(Press F1 for more help)
+
+Line up your shot using the mouse. The wheel
+zooms in and out. The location the ball will
+strike is indicated by the translucent grey
+ball.
+
+Click the mouse to set your shot's power.
